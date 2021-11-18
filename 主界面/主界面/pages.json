@@ -1,0 +1,43 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/list/l",
+			"style": {
+				"navigationBarTitleText": "一研为定",
+				"app-plus":{
+					"titleNView": {
+											"searchInput":{
+													"align": "center",
+													"placeholder": "请输入您想搜索的学校",
+													"borderRadius":"50upx",
+													"backgroundColor": "#fff"
+												}
+										}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f38031",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/list/l",
+			"iconPath": "static/img/footer/footer-home.png",
+			"selectedIconPath": "static/img/footer/footer-home-act.png",
+			"text": "已发布"
+		}, {
+			"pagePath": "pages/list/l",
+			"iconPath": "static/img/footer/footer-task.png",
+			"selectedIconPath": "static/img/footer/footer-task-act.png",
+			"text": "特别关注"
+		}]
+	}
+}
