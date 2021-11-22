@@ -1,0 +1,83 @@
+{
+    "pages" : [
+
+		{
+		    "path" : "pages/ucenter/login",
+		    "style" : {
+				"navigationBarTitleText" : "一研为定",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/list/已发布",
+			"style": {
+				"navigationBarTitleText": "一研为定",
+				"app-plus":{
+					"titleNView": {
+											"searchInput":{
+													"align": "center",
+													"placeholder": "请输入您想搜索的学校",
+													"borderRadius":"50upx",
+													"backgroundColor": "#fff"
+												}
+										}
+				}
+			}
+		},
+		{
+			"path": "pages/list/特别关注",
+			"style": {
+				"navigationBarTitleText": "一研为定",
+				"app-plus":{
+					"titleNView": {
+											"searchInput":{
+													"align": "center",
+													"placeholder": "请输入您想搜索的学校",
+													"borderRadius":"50upx",
+													"backgroundColor": "#fff"
+												}
+										}
+				}
+			}
+		},
+		{
+		    "path" : "pages/ucenter/register",
+		    "style" : {
+				"navigationBarTitleText" : "一研为定",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "Simple App",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8",
+		"app-plus":{
+			"bounce":"none"
+		}
+    },
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#f38031",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	    	"pagePath": "pages/list/已发布",
+	    	"iconPath": "static/img/footer/footer-home.png",
+	    	"selectedIconPath": "static/img/footer/footer-home-act.png",
+	    	"text": "已发布"
+	    }, {
+	    	"pagePath": "pages/list/特别关注",
+	    	"iconPath": "static/img/footer/footer-task.png",
+	    	"selectedIconPath": "static/img/footer/footer-task-act.png",
+	    	"text": "特别关注"
+	    }]
+	}
+	
+	
+}
